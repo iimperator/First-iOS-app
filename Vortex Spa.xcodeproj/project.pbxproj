@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		0330277B1EC24FCC006A2BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330277A1EC24FCC006A2BC9 /* AppDelegate.swift */; };
 		0330277D1EC24FCC006A2BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330277C1EC24FCC006A2BC9 /* ViewController.swift */; };
-		033027801EC24FCC006A2BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330277E1EC24FCC006A2BC9 /* Main.storyboard */; };
 		033027821EC24FCC006A2BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033027811EC24FCC006A2BC9 /* Assets.xcassets */; };
 		033027851EC24FCC006A2BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033027831EC24FCC006A2BC9 /* LaunchScreen.storyboard */; };
 		033027901EC24FCC006A2BC9 /* Vortex_SpaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330278F1EC24FCC006A2BC9 /* Vortex_SpaTests.swift */; };
 		0330279B1EC24FCC006A2BC9 /* Vortex_SpaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330279A1EC24FCC006A2BC9 /* Vortex_SpaUITests.swift */; };
+		033027A81EC257F2006A2BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330277E1EC24FCC006A2BC9 /* Main.storyboard */; };
+		033027B61EC28630006A2BC9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 033027B51EC28630006A2BC9 /* Podfile */; };
+		0394C1ED1EC2884000F2DBCD /* product_mink-eyelashes-drama-queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0394C1EC1EC2884000F2DBCD /* product_mink-eyelashes-drama-queen.jpg */; };
+		4032E7AEF992C7939B1EDE34 /* Pods_Vortex_Spa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A7A8B414EC414F389749D3 /* Pods_Vortex_Spa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,12 @@
 		033027961EC24FCC006A2BC9 /* Vortex SpaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vortex SpaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0330279A1EC24FCC006A2BC9 /* Vortex_SpaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vortex_SpaUITests.swift; sourceTree = "<group>"; };
 		0330279C1EC24FCC006A2BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033027B01EC28331006A2BC9 /* Vortex Spa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vortex Spa.entitlements"; sourceTree = "<group>"; };
+		033027B51EC28630006A2BC9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		0394C1EC1EC2884000F2DBCD /* product_mink-eyelashes-drama-queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "product_mink-eyelashes-drama-queen.jpg"; sourceTree = SOURCE_ROOT; };
+		81A7A8B414EC414F389749D3 /* Pods_Vortex_Spa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vortex_Spa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC7D98FC9837253774FDA23 /* Pods-Vortex Spa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vortex Spa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vortex Spa/Pods-Vortex Spa.release.xcconfig"; sourceTree = "<group>"; };
+		B4EDDDA2F9AEC48BC6414179 /* Pods-Vortex Spa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vortex Spa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vortex Spa/Pods-Vortex Spa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4032E7AEF992C7939B1EDE34 /* Pods_Vortex_Spa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				0330278E1EC24FCC006A2BC9 /* Vortex SpaTests */,
 				033027991EC24FCC006A2BC9 /* Vortex SpaUITests */,
 				033027781EC24FCC006A2BC9 /* Products */,
+				033027AD1EC28328006A2BC9 /* Frameworks */,
+				CFCF771A0F88C05E89CD0363 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +109,12 @@
 		033027791EC24FCC006A2BC9 /* Vortex Spa */ = {
 			isa = PBXGroup;
 			children = (
+				033027B51EC28630006A2BC9 /* Podfile */,
+				033027B01EC28331006A2BC9 /* Vortex Spa.entitlements */,
 				0330277A1EC24FCC006A2BC9 /* AppDelegate.swift */,
 				0330277C1EC24FCC006A2BC9 /* ViewController.swift */,
 				0330277E1EC24FCC006A2BC9 /* Main.storyboard */,
+				0394C1EC1EC2884000F2DBCD /* product_mink-eyelashes-drama-queen.jpg */,
 				033027811EC24FCC006A2BC9 /* Assets.xcassets */,
 				033027831EC24FCC006A2BC9 /* LaunchScreen.storyboard */,
 				033027861EC24FCC006A2BC9 /* Info.plist */,
@@ -125,6 +140,23 @@
 			path = "Vortex SpaUITests";
 			sourceTree = "<group>";
 		};
+		033027AD1EC28328006A2BC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A7A8B414EC414F389749D3 /* Pods_Vortex_Spa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCF771A0F88C05E89CD0363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4EDDDA2F9AEC48BC6414179 /* Pods-Vortex Spa.debug.xcconfig */,
+				ACC7D98FC9837253774FDA23 /* Pods-Vortex Spa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0330279F1EC24FCC006A2BC9 /* Build configuration list for PBXNativeTarget "Vortex Spa" */;
 			buildPhases = (
+				0F72EBDF5C236DD628E99D26 /* [CP] Check Pods Manifest.lock */,
 				033027731EC24FCC006A2BC9 /* Sources */,
 				033027741EC24FCC006A2BC9 /* Frameworks */,
 				033027751EC24FCC006A2BC9 /* Resources */,
+				9757063066EE17D5E5528506 /* [CP] Embed Pods Frameworks */,
+				A8BCFDE5FD4FB65456732147 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +230,17 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 5JE8VH3ZZD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
 					0330278A1EC24FCC006A2BC9 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -235,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033027B61EC28630006A2BC9 /* Podfile in Resources */,
+				033027A81EC257F2006A2BC9 /* Main.storyboard in Resources */,
+				0394C1ED1EC2884000F2DBCD /* product_mink-eyelashes-drama-queen.jpg in Resources */,
 				033027851EC24FCC006A2BC9 /* LaunchScreen.storyboard in Resources */,
 				033027821EC24FCC006A2BC9 /* Assets.xcassets in Resources */,
-				033027801EC24FCC006A2BC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F72EBDF5C236DD628E99D26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9757063066EE17D5E5528506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vortex Spa/Pods-Vortex Spa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BCFDE5FD4FB65456732147 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vortex Spa/Pods-Vortex Spa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		033027731EC24FCC006A2BC9 /* Sources */ = {
@@ -415,10 +511,12 @@
 		};
 		033027A01EC24FCC006A2BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EDDDA2F9AEC48BC6414179 /* Pods-Vortex Spa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5JE8VH3ZZD;
 				INFOPLIST_FILE = "Vortex Spa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imperator.Vortex-Spa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +526,12 @@
 		};
 		033027A11EC24FCC006A2BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC7D98FC9837253774FDA23 /* Pods-Vortex Spa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5JE8VH3ZZD;
 				INFOPLIST_FILE = "Vortex Spa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imperator.Vortex-Spa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +616,7 @@
 				033027A11EC24FCC006A2BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		033027A21EC24FCC006A2BC9 /* Build configuration list for PBXNativeTarget "Vortex SpaTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +625,7 @@
 				033027A41EC24FCC006A2BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		033027A51EC24FCC006A2BC9 /* Build configuration list for PBXNativeTarget "Vortex SpaUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +634,7 @@
 				033027A71EC24FCC006A2BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
