@@ -187,16 +187,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" image="product_mink-eyelashes-drama-queen.jpg"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeY-BZ-kbL">
-                                <rect key="frame" x="28" y="269" width="264" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Schedule an Appointment "/>
-                                <connections>
-                                    <segue destination="usc-Cy-hk4" kind="popoverPresentation" popoverAnchorView="eeY-BZ-kbL" id="bKR-2K-ioS">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c98-4k-EnK">
                                 <rect key="frame" x="149" y="596" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -205,13 +195,38 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="partialCurl" id="8FL-fc-ViB"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zkh-97-Kp3">
-                                <rect key="frame" x="25" y="316" width="271" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="516061574.22788101">
-                                    <!--2017-05-09 22:26:14 +0000-->
-                                </date>
-                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9F-H4-9z2">
+                                <rect key="frame" x="134" y="361" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Full set"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make appointment for " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11Q-MO-7ru">
+                                <rect key="frame" x="74" y="268" width="173" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhg-qq-Oo2">
+                                <rect key="frame" x="74" y="323" width="173" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Eyelash Extensions">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yv9-bu-dea">
+                                <rect key="frame" x="145" y="393" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fill"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -229,7 +244,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ENC-ak-6EF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sH0-lc-9EG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-m5-YEy">
@@ -248,8 +263,35 @@
                                     <segue destination="9uI-N3-Sfi" kind="modal" modalTransitionStyle="partialCurl" id="gt4-Vb-2Bf"/>
                                 </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zkh-97-Kp3">
+                                <rect key="frame" x="52" y="176" width="216" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="516061574.22788101">
+                                    <!--2017-05-09 22:26:14 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1SR-M0-A0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2300.625" y="138.38028169014083"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rG1-iK-EId">
+            <objects>
+                <viewController id="bxN-Y1-iJx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Naj-tu-Vat"/>
+                        <viewControllerLayoutGuide type="bottom" id="iQM-LV-kLF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vyW-Hu-sdA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBP-iL-8Kk">
-                                <rect key="frame" x="70" y="90" width="201" height="21"/>
+                                <rect key="frame" x="60" y="99" width="201" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -259,9 +301,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1SR-M0-A0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVA-5o-D2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2301.5625" y="138.90845070422534"/>
+            <point key="canvasLocation" x="2936" y="139"/>
         </scene>
     </scenes>
     <resources>
@@ -269,7 +311,7 @@
         <image name="product_mink-eyelashes-drama-queen.jpg" width="896" height="896"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UaH-oq-TZO"/>
-        <segue reference="jmE-hm-F5K"/>
+        <segue reference="8FL-fc-ViB"/>
+        <segue reference="gt4-Vb-2Bf"/>
     </inferredMetricsTieBreakers>
 </document>
