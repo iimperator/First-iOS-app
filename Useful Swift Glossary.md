@@ -211,242 +211,183 @@ __________________________________________________________________
 **method**
 > A reusable, named piece of code that’s associated with a particular class, structure, or enumeration.
 
-modal segue
+**modal segue**
+>  A segue in which one view controller presents another view controller as its child. The user must interact with the presented controller, and dismiss it before returning to the app’s main flow. Use modal segues to present tasks that the user must complete before continuing.
 
-A segue in which one view controller presents another view controller as its child. The user must interact with the presented controller, and dismiss it before returning to the app’s main flow. Use modal segues to present tasks that the user must complete before continuing.
+**Model-View-Controller (MVC)**
+> A pattern of app design in which view controllers serve as the communication pipeline between views and the data model.
 
-Model-View-Controller (MVC)
+**mutable**
+> A value that is able to be changed (or mutated) after it’s initialized, like a variable.
 
-A pattern of app design in which view controllers serve as the communication pipeline between views and the data model.
+**navigation controller**
+> A specialized view controller subclass that manages transitions backward and forward through a series of view controllers.
 
-mutable
+**navigation stack**
+> The set of view controllers managed by a particular navigation controller.
 
-A value that is able to be changed (or mutated) after it’s initialized, like a variable.
+**nil**
+> The absence of a value or no value.
 
-navigation controller
+**nil coalescing operator**
+> An operator (??) placed between two values, a ?? b, that unwraps an optional a if it contains a value, or returns a default value b if a is nil.
 
-A specialized view controller subclass that manages transitions backward and forward through a series of view controllers.
+**object**
+> An instance of a class.
 
-navigation stack
+**Object library**
+> Part of the Xcode workspace window that shows a list of objects that can be added to a storyboard, including each object’s name, description, and visual representation.
 
-The set of view controllers managed by a particular navigation controller.
+**optional**
+> A value that contains either an underlying value or nil to indicate that the value is missing.
 
-nil
+**optional binding**
+> The process of attempting to assign an optional value to a constant in a conditional statement to see if the optional contains an underlying value.
 
-The absence of a value or no value.
+**optional type cast operator**
+> An operator (as?) that attempts a downcast and returns the result as an optional value.
 
-nil coalescing operator
+**outlet**
+> A reference to an object in a storyboard from a source code file.
 
-An operator (??) placed between two values, a ?? b, that unwraps an optional a if it contains a value, or returns a default value b if a is nil.
+**outline view**
+> A pane in a storyboard that lets you see a hierarchical representation of the objects in your storyboard.
 
-object
+**override**
+> To replace an implementation of a method defined on a superclass.
 
-An instance of a class.
+**parameter**
+> An additional piece of information that must be passed into a function, method, or initializer when it’s called.
 
-Object library
+**playground**
+> A type of file in which you can change and play around with Swift code directly in Xcode and see the immediate results.
 
-Part of the Xcode workspace window that shows a list of objects that can be added to a storyboard, including each object’s name, description, and visual representation.
+**project navigator**
+> Part of the Xcode workspace window that displays all the files in your project.
 
-optional
+**property**
+> A piece of data encapsulated within a class, structure, or enumeration.
 
-A value that contains either an underlying value or nil to indicate that the value is missing.
+**property observer**
+> A piece of code that’s called every time the value of a property is set. Use property observers to observe and respond to changes in the property’s value.
 
-optional binding
+**protocol**
+> A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
 
-The process of attempting to assign an optional value to a constant in a conditional statement to see if the optional contains an underlying value.
+**read-only**
+> A value that can only be viewed (read) but never changed (written).
 
-optional type cast operator
+**read-write**
+> A value that can be both viewed (read) and changed (written).
 
-An operator (as?) that attempts a downcast and returns the result as an optional value.
+**resize handles**
+> Small white squares that appear on a user interface (UI) element’s borders when it’s selected so you can change its size on the canvas.
 
-outlet
+**root view controller**
+> The first item added to a the navigation stack of a navigation controller. The root view controller is never popped off (removed from) the stack.
 
-A reference to an object in a storyboard from a source code file.
+**run loop**
+> An event processing loop that you use to schedule work and coordinate the receipt of incoming events in your app.
 
-outline view
+**runtime**
+> The period during which a program is executing.
 
-A pane in a storyboard that lets you see a hierarchical representation of the objects in your storyboard.
+**scene**
+> A storyboard representation of a screen of content in your app.
 
-override
+**scene dock**
+> A bar that contains information related to a scene in a storyboard.
 
-To replace an implementation of a method defined on a superclass.
+**segue**
+> A transition from one scene to another in a storyboard.
 
-parameter
+**show segue**
+> A segue that varies the way new content is displayed based on the target view controller. For navigation controllers, the show segue pushes new content on top of the current view controller stack. Use a navigation controller and show segues to navigate through hierarchical data.
 
-An additional piece of information that must be passed into a function, method, or initializer when it’s called.
+**Simulator**
+> An app in Xcode that simulates the behavior and appearance of running an app on a device.
 
-playground
+**Size inspector**
+> An inspector that you use to edit the size and position of a user interface (UI) element in a storyboard.
 
-A type of file in which you can change and play around with Swift code directly in Xcode and see the immediate results.
+**source view controller**
+> The view controller whose contents are displayed at the beginning of a segue.
 
-project navigator
+**storyboard**
+> A file that contains a visual representation of the app’s UI (user interface), showing screens of content and the transitions between them, that you work on in Interface Builder.
 
-Part of the Xcode workspace window that displays all the files in your project.
+**storyboard entry point**
+> The first scene that’s shown from a storyboard when an app starts.
 
-property
+**string interpolation**
+> The process of inserting string representations of constants, variables, literals, and expressions into longer strings.
 
-A piece of data encapsulated within a class, structure, or enumeration.
+**structure**
+> A data type that’s similar to a class, but doesn’t support inheritance and is passed by value instead of by reference.
 
-property observer
+**subclass**
+> A class that’s a child of another class (known as its superclass).
 
-A piece of code that’s called every time the value of a property is set. Use property observers to observe and respond to changes in the property’s value.
+**subview**
+> A view that is enclosed by another view (known as its superview).
 
-protocol
+**superclass**
+> A class that’s a parent of another class (known as its subclass).
 
-A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
+**superview**
+> A view that encloses another view (known as its subview).
 
-read-only
+**Swift standard library**
+> A set of data types and capabilities designed for Swift and baked into the language.
 
-A value that can only be viewed (read) but never changed (written).
+**target**
+> The object that receives the action message in the target-action pattern.
 
-read-write
+**target-action**
+> A design pattern in which one object sends a message to another object when a specific event occurs.
 
-A value that can be both viewed (read) and changed (written).
+**tuple**
+> A grouping of values.
 
-resize handles
+**type casting**
+> A way to check the type of an object, and to treat that object as if it’s a different superclass or subclass from somewhere else in its own class hierarchy.
 
-Small white squares that appear on a user interface (UI) element’s borders when it’s selected so you can change its size on the canvas.
+**type inference**
+> The ability of the Swift compiler to determine the type of a value from context, without an explicit type declaration.
 
-root view controller
+**UIKit**
+> A Cocoa Touch framework for working with the user interface (UI) layer of an iOS app.
 
-The first item added to a the navigation stack of a navigation controller. The root view controller is never popped off (removed from) the stack.
+**underscore**
+> A representation of a wildcard in Swift (_).
 
-run loop
+**unit test**
+> A piece of code written specifically to test a small, self-contained piece of behavior in your app to make sure it behaves correctly.
 
-An event processing loop that you use to schedule work and coordinate the receipt of incoming events in your app.
+**unwrap**
+> To extract an underlying value from an optional.
 
-runtime
+**user interface (UI)**
+> The layer of visual elements that lets a user interact with a piece of software.
 
-The period during which a program is executing.
+**utility area**
+> An area in Xcode that displays the inspector pane and library pane.
 
-scene
+**unwind segue**
+> A type of segue used to implement backward navigation.
 
-A storyboard representation of a screen of content in your app.
+**variable**
+> A value that can change after it’s been initialized, indicated in Swift by the var keyword.
 
-scene dock
+**view**
+> An object that’s used to construct your user interface (UI) and display content to the user.
 
-A bar that contains information related to a scene in a storyboard.
+**view controller**
+> An object that manages a set of views and coordinates the flow of information between the app’s data model and the views that display that data.
 
-segue
+**view hierarchy**
 
-A transition from one scene to another in a storyboard.
+> A hierarchical representation of views relative to other views.
 
-show segue
-
-A segue that varies the way new content is displayed based on the target view controller. For navigation controllers, the show segue pushes new content on top of the current view controller stack. Use a navigation controller and show segues to navigate through hierarchical data.
-
-Simulator
-
-An app in Xcode that simulates the behavior and appearance of running an app on a device.
-
-Size inspector
-
-An inspector that you use to edit the size and position of a user interface (UI) element in a storyboard.
-
-source view controller
-
-The view controller whose contents are displayed at the beginning of a segue.
-
-storyboard
-
-A file that contains a visual representation of the app’s UI (user interface), showing screens of content and the transitions between them, that you work on in Interface Builder.
-
-storyboard entry point
-
-The first scene that’s shown from a storyboard when an app starts.
-
-string interpolation
-
-The process of inserting string representations of constants, variables, literals, and expressions into longer strings.
-
-structure
-
-A data type that’s similar to a class, but doesn’t support inheritance and is passed by value instead of by reference.
-
-subclass
-
-A class that’s a child of another class (known as its superclass).
-
-subview
-
-A view that is enclosed by another view (known as its superview).
-
-superclass
-
-A class that’s a parent of another class (known as its subclass).
-
-superview
-
-A view that encloses another view (known as its subview).
-
-Swift standard library
-
-A set of data types and capabilities designed for Swift and baked into the language.
-
-target
-
-The object that receives the action message in the target-action pattern.
-
-target-action
-
-A design pattern in which one object sends a message to another object when a specific event occurs.
-
-tuple
-
-A grouping of values.
-
-type casting
-
-A way to check the type of an object, and to treat that object as if it’s a different superclass or subclass from somewhere else in its own class hierarchy.
-
-type inference
-
-The ability of the Swift compiler to determine the type of a value from context, without an explicit type declaration.
-
-UIKit
-
-A Cocoa Touch framework for working with the user interface (UI) layer of an iOS app.
-
-underscore
-
-A representation of a wildcard in Swift (_).
-
-unit test
-
-A piece of code written specifically to test a small, self-contained piece of behavior in your app to make sure it behaves correctly.
-
-unwrap
-
-To extract an underlying value from an optional.
-
-user interface (UI)
-
-The layer of visual elements that lets a user interact with a piece of software.
-
-utility area
-
-An area in Xcode that displays the inspector pane and library pane.
-
-unwind segue
-
-A type of segue used to implement backward navigation.
-
-variable
-
-A value that can change after it’s been initialized, indicated in Swift by the var keyword.
-
-view
-
-An object that’s used to construct your user interface (UI) and display content to the user.
-
-view controller
-
-An object that manages a set of views and coordinates the flow of information between the app’s data model and the views that display that data.
-
-view hierarchy
-
-A hierarchical representation of views relative to other views.
-
-workspace window
-
-The Xcode window, which you use to manage and navigate through the files and resources in your project.
+**workspace window**
+> The Xcode window, which you use to manage and navigate through the files and resources in your project.
